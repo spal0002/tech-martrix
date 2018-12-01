@@ -1,0 +1,62 @@
+/*Coomn  Styles for differnet components*/
+.text-center {
+  text-align: center; }
+
+.text-lab {
+  background: #a366ff; }
+
+#map {
+  height: 400px;
+  /* The height is 400 pixels */
+  width: 100%;
+  /* The width is the width of the web page */ }
+
+/* header styles */
+.container-fluid {
+  padding: 0px; }
+  .container-fluid .navbar-inverse {
+    background-color: #290066 !important;
+    border-color: #290066 !important;
+    border-radius: 0px;
+    margin-bottom: 0px; }
+
+/* main content styles */
+.container-fluid .container {
+  width: 98% !important; }
+
+.container-fluid .main-content {
+  border: solid 1px #dadada;
+  border-top: 0px;
+  margin: 2px; }
+  .container-fluid .main-content .custom-width {
+    width: 3.333333%; }
+  .container-fluid .main-content .max-width {
+    width: 96.666667%; }
+  .container-fluid .main-content .sidebar-container {
+    padding-right: 0px; }
+    .container-fluid .main-content .sidebar-container i {
+      cursor: pointer;
+      padding: 6px 0px; }
+    .container-fluid .main-content .sidebar-container .glyphicon {
+      display: block;
+      margin: 12px 0px; }
+  .container-fluid .main-content .maps-container {
+    border: solid 1px #dadada;
+    padding: 0px; }
+    .container-fluid .main-content .maps-container .panel {
+      max-height: 500px;
+      overflow-y: auto; }
+      .container-fluid .main-content .maps-container .panel .panel-body {
+        border-bottom: 1px solid #ddd; }
+        .container-fluid .main-content .maps-container .panel .panel-body .img-thumbnail {
+          width: 100%; }
+        .container-fluid .main-content .maps-container .panel .panel-body .autocomplete-dropdown-container {
+          border-right: 1px solid #ccc;
+          border-left: 1px solid #ccc;
+          border-radius: 2px;
+          line-height: 25px;
+          cursor: pointer; }
+          .container-fluid .main-content .maps-container .panel .panel-body .autocomplete-dropdown-container .dropdown-container {
+            padding-top: 6px;
+            padding-left: 6px;
+            border-bottom: 1px solid #ddd; }

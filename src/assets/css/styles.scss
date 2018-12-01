@@ -1,0 +1,83 @@
+/*Coomn  Styles for differnet components*/
+
+.text-center {
+    text-align: center;
+}
+.text-lab {
+    background: #a366ff;
+}
+#map {
+    height: 400px;  /* The height is 400 pixels */
+    width: 100%;  /* The width is the width of the web page */
+   }
+/* header styles */
+
+.container-fluid {
+    padding: 0px;
+    .navbar-inverse {
+        background-color: #290066!important;
+        border-color: #290066!important;
+        border-radius: 0px;
+        margin-bottom:0px;
+    }
+    
+}
+/* main content styles */
+.container-fluid {
+    .container {
+        width: 98%!important;
+    }
+
+    .main-content {
+        border: solid 1px #dadada;
+        border-top: 0px;
+        margin: 2px;
+
+        .custom-width{
+            width: 3.333333%;
+        }
+        .max-width{
+            width: 96.666667%;
+        }
+        .sidebar-container {
+            padding-right: 0px;
+            i {
+                cursor: pointer;
+                padding: 6px 0px;
+            }
+            .glyphicon {
+                display: block;
+                margin: 12px 0px;
+            }
+        }
+
+        .maps-container {
+            border: solid 1px #dadada;
+            padding: 0px;
+            .panel {
+                max-height: 500px;
+                overflow-y: auto;
+                .panel-body {
+                    border-bottom: 1px solid #ddd;
+                    .img-thumbnail {
+                        width: 100%
+                    }
+                    .autocomplete-dropdown-container{
+                        
+                        border-right: 1px solid #ccc;
+                        border-left: 1px solid #ccc;
+                        border-radius: 2px;
+                          line-height: 25px;
+                          cursor: pointer;
+
+                          .dropdown-container{
+                            padding-top: 6px;
+                            padding-left: 6px;
+                            border-bottom: 1px solid #ddd;
+                          }
+                      }
+                }
+            }
+           }
+    }
+}

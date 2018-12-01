@@ -1,3 +1,2 @@
-#npm install --  for dependencies installation
-
-#npm start -- for output 
+# ample-ui-react
+Ample UI with ReactJS
