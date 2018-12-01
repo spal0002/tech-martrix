@@ -1,6 +1,5 @@
 import React from 'react';
 import 'react-bootstrap';
-import '../App.css';
 import SideNav from '../sidenav/sidenav';
 import { Grid, Row, Col } from 'react-bootstrap';
 import HeaderComponent from '../header/headerComponent';
