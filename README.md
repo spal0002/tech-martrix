@@ -1,2 +1,2 @@
-# ample-ui-react
-Ample UI with ReactJS
+# tech-martrix
+Sample POC for tech-martrix
